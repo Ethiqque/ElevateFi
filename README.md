@@ -55,4 +55,4 @@ ElevateFi is a full-stack application designed to empower users in managing thei
 
 ElevateFi is a complete platform designed to guide users in achieving financial success while offering cutting-edge features, scalability, and seamless integration with the latest technologies.
 
-IN PROGRESS
+
