@@ -4,103 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39f25522-f8ec-4e81-a28a-f81a90002961" name="Changes" comment="added frontend parts">
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/aws/AwsS3Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/aws/AwsSesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/common/ErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/common/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/common/LoggingAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/common/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/common/TokenCommons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/config/SecretConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/controller/AccountSummaryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/controller/AdminActionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/controller/AppointmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/controller/BlogPostController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/controller/ContactMessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/controller/GoalController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/controller/InvoiceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/controller/PasswordResetController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/controller/PolicyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/controller/ServiceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/controller/TransactionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/dto/AccountSummaryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/dto/AdminActionDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/dto/AppointmentDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/dto/BlogPostDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/dto/BulkImportDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/dto/ContactMessageDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/dto/EmailTemplateDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/dto/GoalDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/dto/InvoiceDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/dto/PasswordResetConfirmDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/dto/PasswordResetRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/dto/PaymentDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/dto/PolicyDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/dto/ServiceDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/dto/TimeSlotDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/dto/TransactionDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/dto/VerifyEmailDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/entity/AccountSummary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/entity/AdminAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/entity/Appointment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/entity/BlogPost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/entity/ContactMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/entity/EmailTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/entity/EmailVerificationToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/entity/Goal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/entity/InvoiceEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/entity/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/entity/Policy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/entity/ServiceEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/entity/TimeSlot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/entity/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/hook/StripeWebhook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/repository/AccountSummaryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/repository/AdminActionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/repository/AppointmentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/repository/BlogPostRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/repository/ContactMessageRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/repository/EmailTemplateRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/repository/EmailVerificationTokenRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/repository/GoalRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/repository/InvoiceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/repository/PaymentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/repository/PolicyRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/repository/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/repository/ServiceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/repository/TimeSlotRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/repository/TransactionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/security/JwtAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/security/JwtConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/security/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/security/SecurityRateLimitFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/service/AccountSummaryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/service/AdminActionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/service/AppointmentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/service/BlogPostService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/service/ContactMessageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/service/EmailTemplateService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/service/GoalService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/service/InvoiceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/service/PasswordResetService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/service/PolicyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/service/ServiceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/service/TimeSlotService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/service/TransactionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/service/UuidTokenService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/token/JwtTokenUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/token/JwtUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/elevatefi/util/CacheConfig.java" afterDir="false" />
+    <list default="true" id="39f25522-f8ec-4e81-a28a-f81a90002961" name="Changes" comment="added backend parts">
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/appointments/AppointmentList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/appointments/EditAppointment.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/blog/BlogPostCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/blog/BlogPostList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/blog/EditBlogPostForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/dashboard/AccountSummary.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/goals/GoalForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/goals/GoalList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/goals/GoalProgress.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/home/AboutUs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/home/CallToAction.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/home/Hero.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/home/HowItWorks.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/home/LatestBlogPosts.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/home/ServiceHighlights.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/services/EditServiceForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/services/ServiceBooking.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/services/ServiceCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +41,12 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="frontend" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -221,7 +149,8 @@
       <updated>1726281895743</updated>
       <workItem from="1726281896937" duration="4785000" />
       <workItem from="1726293241001" duration="398000" />
-      <workItem from="1726294794929" duration="4333000" />
+      <workItem from="1726294794929" duration="4969000" />
+      <workItem from="1726543164575" duration="335000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -279,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726295574208</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added backend parts">
+      <option name="closed" value="true" />
+      <created>1726464080271</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1726464080271</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,6 +236,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="added frontend parts" />
-    <option name="LAST_COMMIT_MESSAGE" value="added frontend parts" />
+    <MESSAGE value="added backend parts" />
+    <option name="LAST_COMMIT_MESSAGE" value="added backend parts" />
   </component>
 </project>
