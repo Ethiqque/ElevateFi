@@ -24,7 +24,7 @@ public class ServiceService {
    /**
     * Creates a new service offering.
     *
-    * @param serviceEntity The service entity to be created.
+    * @param serviceDTO The service entity to be created.
     * @return The created service entity.
     */
    public ServiceDTO createService(ServiceDTO serviceDTO) {
@@ -71,7 +71,7 @@ public class ServiceService {
     * Updates an existing service.
     *
     * @param id The UUID of the service to update.
-    * @param updatedService The updated service information.
+    * @param serviceDTO The updated service information.
     * @return The updated service entity, or an empty Optional if the service was not found.
     */
    public Optional<ServiceDTO> updateService(UUID id, ServiceDTO serviceDTO) {

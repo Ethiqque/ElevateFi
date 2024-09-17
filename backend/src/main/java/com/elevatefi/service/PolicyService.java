@@ -24,7 +24,7 @@ public class PolicyService {
    /**
     * Creates a new policy.
     *
-    * @param policy The policy to be created.
+    * @param policyDTO The policy to be created.
     * @return The created policy.
     */
    public PolicyDTO createPolicy(PolicyDTO policyDTO) {

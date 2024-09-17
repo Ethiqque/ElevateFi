@@ -138,7 +138,7 @@ public class AppointmentService {
    /**
     * Finds all appointments associated with a specific user.
     *
-    * @param username The UUID of the user.
+    * @param authentication The UUID of the user.
     * @return A list of appointments associated with the user.
     */
    public List<AppointmentDTO> findUserAppointments(Authentication authentication) {

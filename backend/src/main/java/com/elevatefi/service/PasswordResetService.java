@@ -77,8 +77,7 @@ public class PasswordResetService {
    /**
     * Resets the user's password based on the provided token and new password.
     *
-    * @param token       The password reset token.
-    * @param newPassword The new password to be set.
+    * @param passwordResetConfirmDTO       Dto with password reset token & new password.
     */
    public void resetPassword(PasswordResetConfirmDTO passwordResetConfirmDTO) {
       EmailVerificationToken resetToken = emailVerificationTokenRepository.findByToken(passwordResetConfirmDTO.getToken())

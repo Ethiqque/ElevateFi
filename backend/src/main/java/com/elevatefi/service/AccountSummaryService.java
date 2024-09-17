@@ -26,7 +26,7 @@ public class AccountSummaryService {
   /**
    * Retrieves the account summary for the given username.
    *
-   * @param username The username of the user.
+   * @param authentication The username of the user.
    * @return The AccountSummaryDTO containing the account summary details.
    */
   public AccountSummaryDTO getAccountSummary(Authentication authentication) {
