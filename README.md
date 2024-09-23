@@ -1,5 +1,7 @@
 # ElevateFi: A Comprehensive Financial Goal Management Platform
 
+![Elevate](https://static1.squarespace.com/static/589c9693f5e2314b231680e5/t/654e7c08d313c21e90ff54ee/1722989455844/)
+
 ## Introduction
 
 ElevateFi is a full-stack application designed to empower users in managing their financial goals effectively. Built with a robust backend using **Java Spring Boot** and a dynamic frontend powered by **React**, the entire system is containerized using **Docker** for streamlined operations. The application's images are stored in **Amazon Elastic Container Registry (ECR)** and deployed to **Amazon Elastic Container Service (ECS)** for scalable backend processing. The frontend is hosted on **Amazon S3**, ensuring high availability and optimal performance. **Continuous Integration and Deployment (CI/CD)** pipelines are managed through **Jenkins**, automating the entire deployment process for maximum efficiency.
